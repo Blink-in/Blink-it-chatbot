@@ -1,4 +1,4 @@
-import Ad from "../models/Ad.js";
+import Ad from "../models/ad.js";
 
 export const getRandomAd = async () => {
   const ads = await Ad.find({ active: true });
